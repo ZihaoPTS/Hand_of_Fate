@@ -164,7 +164,7 @@ public class fingerMaster : MonoBehaviour
                     }
                     Debug.Log("Finger spreadings: ");
                     Debug.Log(myHandBending.Finger1);
-                    Debug.Log(myHandBending.Finger2[0]);
+                    Debug.Log(myHandBending.Finger2[1]);
                     Debug.Log(myHandBending.Finger3[0]);
                     newBendingMessage = true;
                 }

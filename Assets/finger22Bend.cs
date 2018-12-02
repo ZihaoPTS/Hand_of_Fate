@@ -7,7 +7,7 @@ public class finger22Bend : MonoBehaviour
 
     // Use this for initialization
     public Vector3 Pivot = Vector3.down;
-    public int spreadingIndex = 0;
+    public float zRotation = 0;
 
     void Start()
     {
@@ -17,8 +17,10 @@ public class finger22Bend : MonoBehaviour
     // Update is called once per frame
     void Finger22Bend(int bending)
     {
+        float valueToChange = bending - zRotation;
+        zRotation = bending;
         transform.position += (transform.rotation * Pivot);
-        transform.rotation *= Quaternion.AngleAxis(-1 * bending, Vector3.forward);
+        transform.rotation *= Quaternion.AngleAxis(-1 * valueToChange, Vector3.forward);
         transform.position -= (transform.rotation * Pivot);
     }
 }
