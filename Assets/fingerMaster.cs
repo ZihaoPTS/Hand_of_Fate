@@ -28,9 +28,7 @@ public class handBending
 public class fingerMaster : MonoBehaviour
 {
 
-    // Use this for initialization\
-
-
+    // Use this for initialization
 
     Socket socket_spread;
     Socket socket_bend;
