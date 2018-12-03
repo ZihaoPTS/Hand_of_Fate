@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pivot: {x: 0, y: -1, z: 0}
+  zRotation: 0
 --- !u!136 &20024003
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -423,6 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pivot: {x: 0, y: -1, z: 0}
+  zRotation: 0
 --- !u!1 &380968653
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,6 +652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pivot: {x: 0, y: -1, z: 0}
+  zRotation: 0
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,6 +860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pivot: {x: 0, y: -1, z: 0}
+  zRotation: 0
 --- !u!1 &814605499
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,6 +990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pivot: {x: 0, y: -1, z: 0}
+  zRotation: 0
 --- !u!1 &1030168157
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,7 +1038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pivot: {x: 0, y: -1, z: 0}
-  spreadingIndex: 0
+  zRotation: 0
 --- !u!136 &1030168160
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1232,6 +1237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pivot: {x: 0, y: -1, z: 0}
+  zRotation: 0
 --- !u!1 &1544489449
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,6 +1285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pivot: {x: 0, y: -1, z: 0}
+  zRotation: 0
 --- !u!136 &1544489452
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1355,8 +1362,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2061659759}
-  - component: {fileID: 2061659760}
   - component: {fileID: 2061659761}
+  - component: {fileID: 2061659760}
   m_Layer: 0
   m_Name: Fingers
   m_TagString: Untagged
@@ -1388,21 +1395,18 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2061659758}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77f6bf116d2b15444b96722d1754fcfc, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f965a597146c714f8e10c7debe9e7d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pivot: {x: 0, y: -1, z: 0}
-  rotSpeed_x: 1
-  newMessage: 0
 --- !u!114 &2061659761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2061659758}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2293c750d053dda47932097df831de21, type: 3}
   m_Name: 
